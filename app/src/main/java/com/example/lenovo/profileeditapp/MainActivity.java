@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //                    intent.putExtra(EXTRA_MESSAGE,user1);
 //                    MainActivity.this.startActivity(intent);
-                    // frameLayoutAddedSarah.setVisibility(View.GONE);
+                     frameLayoutAddedSarah.setVisibility(View.GONE);
                 }
                 if(frameLayoutAddedJohn.getVisibility()==View.VISIBLE){
                     Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
